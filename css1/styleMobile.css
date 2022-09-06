@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px){
+	.content, .location {
+    	padding: 0 20px;
+	}
+
+	.loc-con{
+		flex-direction: column;
+	}
+	.loc-con .w-50{
+		width: 100% !important;
+	}
+}
+
+
+@media screen and (max-width: 420px) {
+	.topnav a, .bottomnav a{
+		display: none;
+	}
+	.topnav.show a, .bottomnav.show a{
+		display: block;
+	}
+	.topnav .icon, .bottomnav .icon{
+		display: unset;
+	}
+	header nav{
+		height: unset;
+	}
+	.game iframe{
+		height: 100% !important;
+	}
+	footer img, header img{
+		width: 100%;
+	}
+	footer img.m-1{
+		margin: 0;
+		max-width: 43px;
+	}
+}
